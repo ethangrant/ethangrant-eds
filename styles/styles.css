@@ -256,13 +256,14 @@ main .section.highlight {
 /* profile section */
 .profile-header {
 
-  /* Avatar */
+  /* avatar */
   p:nth-child(1) {
     margin: 0;
   }
 
   p:nth-child(1) img {
-    border-radius: 5rem;
+    max-width: 12.5rem;
+    border-radius: 12.5rem;
   }
 
   h1 {
@@ -270,7 +271,7 @@ main .section.highlight {
   }
 
   img {
-    max-width: 5rem;
+    max-width: 4rem;
     margin: var(--space-8) var(--space-8) 0;
   }
 }
